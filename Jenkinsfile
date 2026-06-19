@@ -3,7 +3,7 @@ pipeline{
    
     environment{
        BUILD_SERVER_IP='ec2-user@13.228.207.158'
-       IMAGE_NAME='devopstrainer/java-mvn-privaterepos:php$BUILD_NUMBER'
+       IMAGE_NAME='menghiengsornit/java-mvn-addressbook:php$BUILD_NUMBER'
        DEPLOY_SERVER_IP='ec2-user@54.251.13.131'
     }
 
